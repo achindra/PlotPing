@@ -30,13 +30,13 @@ The script will automatically install the required packages (`pandas` and `matpl
 ### Example
 
 ```bash
-python live_ping_plotter.py google.com --data-file=my_ping_data.csv --num-records=1000 --max-records=5000
+python3 live_ping_plotter.py google.com --data-file=my_ping_data.csv --num-records=1000 --max-records=5000
 ```
 
 #### Without Arguments
 
 ```sh
-python live_ping_plotter.py google.com
+python3 live_ping_plotter.py google.com
 ```
 
 By default, this will load the last 3600 records from ping_data.csv and keep a maximum of 3600 records in memory.
